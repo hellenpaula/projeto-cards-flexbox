@@ -1,10 +1,5 @@
-/* Mobile first */
-/* editar titulo pagina☑️ */
-/* hover e borda nos cards */
-/* melhorar imagens */
-/* colocar botão */
-/* texto */
 
+/* FONTE: */
 @font-face {
     font-family: "OpenSauce";
     src: url(./assets/fonts/open-sauce.one-regular.ttf) format("truetype");
@@ -20,7 +15,6 @@
 body {
     background-color: #f2f2f2;
     font-family: "OpenSauce" ;
-    
 }
 
 
@@ -29,22 +23,18 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 75px;
-
 }
 
 .titulo_pagina {
     font-weight: 500;
     font-size: 30px;
-
 }
 
 .green {
-    color:  #027b02;
+    color: #027b02;
     font-weight: 600;
     padding: 0 0 38px;
-
 }
-
 
 .container {
     display: flex;
@@ -53,30 +43,26 @@ body {
     gap: 54px;
     height: 80vh;
     flex-wrap: wrap;
-
 }
 
 .card {
     width: 275px;
     background-color: white;
     padding: 22px 18px 34px;
-    
     border-radius: 20px;
     margin: 0 10px;
     box-shadow: 2px 2px 20px #00000021;
     display: flex;
-    /* flex: 1; */
     flex-direction: column;
     align-items: center;
     transition: all 0.6s ease 0s;
-     border: 1px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
 }
 
 .card:hover {
     transform: scale(1.02);
    box-shadow: 2px 2px 20px #00000039;
    border: 1px solid rgba(94, 158, 232, 0.859);
-   /* transition: 0.5s ease all; */
 
 }
 
@@ -84,13 +70,8 @@ body {
     width: 100%;
     height: 209px;
     position: relative;
-
-
 }
 
-.img:hover {
-    
-}
 
 .img {
     width: 100%;
@@ -131,8 +112,6 @@ body {
 
 .btn {
     padding: 9px;
-    /* background-color: white; */
-    /* border: 2px solid #85afe1; */
     background-color: #85afe1;
     border: none;
     border-radius: 16px;
@@ -144,7 +123,6 @@ body {
 
 .btn:hover {
     background-color: #6685ac;
-    
     color: white;
 }
 
