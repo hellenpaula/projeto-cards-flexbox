@@ -1,0 +1,153 @@
+/* Mobile first */
+/* editar titulo pagina☑️ */
+/* hover e borda nos cards */
+/* melhorar imagens */
+/* colocar botão */
+/* texto */
+
+@font-face {
+    font-family: "OpenSauce";
+    src: url(./assets/fonts/open-sauce.one-regular.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: "OpenSauce" ;
+    
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+
+}
+
+.titulo_pagina {
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+.green {
+    color:  #027b02;
+    font-weight: 600;
+    padding: 0 0 38px;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+    height: 80vh;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 275px;
+    background-color: white;
+    padding: 22px 18px 34px;
+    
+    border-radius: 20px;
+    margin: 0 10px;
+    box-shadow: 2px 2px 20px #00000021;
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.6s ease 0s;
+     border: 1px solid #f2f2f2;
+}
+
+.card:hover {
+    transform: scale(1.02);
+   box-shadow: 2px 2px 20px #00000039;
+   border: 1px solid rgba(94, 158, 232, 0.859);
+   /* transition: 0.5s ease all; */
+
+}
+
+.area_img {
+    width: 100%;
+    height: 209px;
+    position: relative;
+
+
+}
+
+.img:hover {
+    
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.legenda_img {
+    position: absolute;
+    left: 17px;
+    bottom: 15px;
+    color: #e2e2e2;
+    font-size: 12px;
+}
+
+.simbolo {
+    color: #de3a53;
+    padding-right: 4px;
+    font-size: 21px;
+}
+
+.area_texto {
+    padding: 21px 0 20px 7px;
+}
+
+.titulo{
+    padding-bottom: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.descricao {
+    font-size: 12.2px;
+    color: #545454;
+    line-height: 19px;
+}
+
+.btn {
+    padding: 9px;
+    /* background-color: white; */
+    /* border: 2px solid #85afe1; */
+    background-color: #85afe1;
+    border: none;
+    border-radius: 16px;
+    width: 127px;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.5s ease all;
+}
+
+.btn:hover {
+    background-color: #6685ac;
+    
+    color: white;
+}
+
+.link_btn {
+    color: white;
+}
